@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Pages</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="overlay">
+      <div class="modal" role="dialog" aria-modal="true">
+        <div class="modal__inner">
+          <div class="row">
+            <span>All pages</span>
+            <label class="cb cb--filled">
+                <input id="all" class="cb__input" type="checkbox" />
+                <span class="cb__box" aria-hidden="true"></span>
+            </label>
+          </div>
+
+          <div class="divider"></div>
+
+          <div>
+              <div class="row">
+                <span>Page 1</span>
+                <label class="cb cb--outline">
+                    <input class="cb__input" type="checkbox" />
+                    <span class="cb__box" aria-hidden="true"></span>
+                </label>
+              </div>
+              <div class="row">
+                <span>Page 2</span>
+                <label class="cb cb--outline">
+                    <input class="cb__input" type="checkbox" />
+                    <span class="cb__box" aria-hidden="true"></span>
+                </label>
+              </div>
+              <div class="row">
+                <span>Page 3</span>
+                <label class="cb cb--outline">
+                    <input class="cb__input" type="checkbox" />
+                    <span class="cb__box" aria-hidden="true"></span>
+                </label>
+              </div>
+              <div class="row">
+                <span>Page 4</span>
+                <label class="cb cb--outline">
+                    <input class="cb__input" type="checkbox" />
+                    <span class="cb__box" aria-hidden="true"></span>
+                </label>
+              </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="btn-container">
+            <button class="btn" type="button">Done</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
